@@ -146,7 +146,7 @@
     </link>
     <static>1</static>
     <allow_auto_disable>1</allow_auto_disable>
-    <pose>1.22855 -0.402179 0 0 -0 0</pose>
+    <pose>1.22855 -0.3318 0 0 -0 0</pose>
   </model>
 
   <model name='borad_xyz_0.3_0.2_0.05m_0'>
