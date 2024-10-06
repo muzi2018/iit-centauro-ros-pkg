@@ -36,7 +36,7 @@
   
   <!-- from where the simulation enviornment will be loaded:
        WARNING: exactly one parameter has to be true, otherwise simulation behaviour is undefined -->
-  <arg name="world_name" default="$(find centauro_gazebo)/worlds/centauro_terrain_1.world"/>
+  <arg name="world_name" default="$(find centauro_gazebo)/worlds/centauro_terrain.world"/>
 
 
   <!-- Load the URDF/SRDF into the ROS Parameter Server -->
