@@ -347,7 +347,7 @@
     </model>
 
     <model name='board_0.05m'>
-      <pose>0.947264 0.093361 0 0 -0 0</pose>
+      <pose>0.405799 -1.05565 0 0 -0 0</pose>
       <scale>1 1 1</scale>
       <link name='link'>
         <pose>0.947264 0.093361 0.025 0 -0 0</pose>
