@@ -751,7 +751,7 @@
     </model>
 
     <model name='unit_box_clone_clone'>
-      <pose>2.14899 2.61513 0.814295 -0 -0 -0.021618</pose>
+      <pose>2.19647 2.67252 0.4 0 0 -0.021618</pose>
       <link name='link'>
         <inertial>
           <mass>1</mass>
@@ -768,7 +768,7 @@
         <collision name='collision'>
           <geometry>
             <box>
-              <size>1.48961 0.224037 0.5</size>
+              <size>1.48961 0.224037 0.8</size>
             </box>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -788,7 +788,7 @@
         <visual name='visual'>
           <geometry>
             <box>
-              <size>1.48961 0.224037 0.5</size>
+              <size>1.48961 0.224037 0.8</size>
             </box>
           </geometry>
           <material>
@@ -805,13 +805,13 @@
     </model>
 
     <model name='unit_box_clone_clone'>
-      <pose>2.22092 2.58247 0.428546 0 0 -0.021236</pose>
-      <scale>1 1 0.526278</scale>
+      <pose>2.22052 2.56062 0.645173 0 0 -0.021541</pose>
+      <scale>1 1 0.792313</scale>
       <link name='link'>
-        <pose>2.22092 2.58247 0.428546 0 0 -0.021236</pose>
+        <pose>2.22052 2.56062 0.645173 0 0 -0.021541</pose>
         <velocity>0 0 0 0 -0 0</velocity>
-        <acceleration>6.03569 -0.351403 10.3635 0.812214 1.51798 -0.00205</acceleration>
-        <wrench>6.03569 -0.351403 10.3635 0 -0 0</wrench>
+        <acceleration>4.30314 0.553112 -4.60556 -0.855065 0.386885 -0.001889</acceleration>
+        <wrench>4.30314 0.553112 -4.60556 0 -0 0</wrench>
       </link>
     </model>
 
