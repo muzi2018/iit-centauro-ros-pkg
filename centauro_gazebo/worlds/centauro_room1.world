@@ -708,7 +708,7 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose>2.0127 -0.30001 0 0 -0 0</pose>
+      <pose>2.947 -0.30001 0 0 -0 0</pose>
     </model>
 
     <model name='chair_3_0'>
@@ -814,7 +814,7 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose>3.43683 -2.38106 0 0 0 -1.54128</pose>
+      <pose>5.219 -2.38106 0 0 0 -1.54128</pose>
     </model>
 
     <model name='bookshelf'>
