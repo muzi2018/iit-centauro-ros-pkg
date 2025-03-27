@@ -75,6 +75,12 @@
             <origin xyz="0.272 0 0.084" rpy="0 0.54 0" />
         </xacro:property>
 
+        <xacro:property name="d435_base_name2" value="D435i_camera2" />
+        <xacro:property name="d435_base_parent_name2" value="pelvis" />
+        <xacro:property name="d435_base_origin2">
+            <origin xyz="0.272 0 0.084" rpy="0 0.54 0" />
+        </xacro:property>
+
         <xacro:if value="${ADD_D435I_BASE}">
             <xacro:include filename="$(find realsense_gazebo_description)/urdf/_d435i.urdf.xacro" />
 
@@ -98,6 +104,34 @@
                 color_fps="30">
 
                 <xacro:insert_block name="d435_base_origin" />
+
+            </xacro:sensor_d435i>
+
+        </xacro:if>
+
+        <xacro:if value="${ADD_D435I_BASE}">
+            <xacro:include filename="$(find realsense_gazebo_description)/urdf/_d435i.urdf.xacro" />
+
+            <xacro:sensor_d435i parent="${d435_base_parent_name}"
+                name="${d435_base_name2}"
+                topics_ns="${d435_base_name2}"
+                enable_pointCloud="true" 
+                align_depth="true"
+                unite_imu_method="false"
+                visualize="false"
+                accel_fps="300"
+                gyro_fps="300"
+                depth_width="1280"
+                depth_height="720"
+                depth_fps="90"
+                infra_width="1280"
+                infra_height="720"
+                infra_fps="90"
+                color_width="1280"
+                color_height="720"
+                color_fps="30">
+
+                <xacro:insert_block name="d435_base_origin2" />
 
             </xacro:sensor_d435i>
 
