@@ -78,7 +78,7 @@
         <xacro:property name="d435_base_name2" value="D435i_camera2" />
         <xacro:property name="d435_base_parent_name2" value="pelvis" />
         <xacro:property name="d435_base_origin2">
-            <origin xyz="0.272 0 0.084" rpy="0 0.54 0" />
+            <origin xyz="0.272 0 0.084" rpy="0 0 -0.27" />
         </xacro:property>
 
         <xacro:if value="${ADD_D435I_BASE}">
