@@ -78,80 +78,80 @@
       <kinematic>0</kinematic>
     </link>
     <static>1</static>
-    <pose>2.61751 -3.80993 0.702685 -1.28484 0 0</pose>
+    <pose>2.61 -3.59993 0.456157 -3.04084 0 0.039</pose>
   </model>
 
-    <model name='Apriltag36_11_00000_clone_0_clone'>
-      <link name='main'>
-        <pose>0 0 0 0 -0 0</pose>
-        <visual name='main_Visual'>
-          <geometry>
-            <box>
-              <size>0.25 0.25 0.01</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://Apriltag36_11_00000/materials/scripts</uri>
-              <uri>model://Apriltag36_11_00000/materials/textures</uri>
-              <name>Apriltag36_11_00000</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <static>1</static>
-      <pose>5.45307 -2.34047 0.693777 -1.32808 0.039227 1.57715</pose>
-    </model>
+  <model name='Apriltag36_11_00001'>
+    <link name='main'>
+      <pose>0 0 0 0 -0 0</pose>
+      <visual name='main_Visual'>
+        <geometry>
+          <box>
+            <size>0.25 0.25 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://Apriltag36_11_00001/materials/scripts</uri>
+            <uri>model://Apriltag36_11_00001/materials/textures</uri>
+            <name>Apriltag36_11_00001</name>
+          </script>
+        </material>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    <static>1</static>
+    <pose>2.6349 -1.201776 0.454384 0.000466 0.009947 -0.0178</pose>
+  </model>
 
-    <model name='Apriltag36_11_00000_clone_0_clone'>
-      <pose>5.45307 -2.34047 0.693777 -1.32808 0.039227 1.57715</pose>
-      <scale>1 1 1</scale>
-      <link name='main'>
-        <pose>5.45307 -2.34047 0.693777 -1.32808 0.039227 1.57715</pose>
-        <velocity>0 0 0 0 -0 0</velocity>
-        <acceleration>0 0 0 0 -0 0</acceleration>
-        <wrench>0 0 0 0 -0 0</wrench>
-      </link>
-    </model>
+  <model name='Apriltag36_11_00001'>
+    <pose>2.6349 -1.201776 0.454384 0.000466 0.009947 -0.0178</pose>
+    <scale>1 1 1</scale>
+    <link name='main'>
+      <pose>2.67069 -1.1249 0.464384 0 0.009878 0.0715</pose>
+      <velocity>0 0 0 0 -0 0</velocity>
+      <acceleration>0 0 0 0 -0 0</acceleration>
+      <wrench>0 0 0 0 -0 0</wrench>
+    </link>
+  </model>
 
-    <model name='Apriltag36_11_00000_clone_0'>
-      <link name='main'>
-        <pose>0 0 0 0 -0 0</pose>
-        <visual name='main_Visual'>
-          <geometry>
-            <box>
-              <size>0.25 0.25 0.01</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <uri>model://Apriltag36_11_00000/materials/scripts</uri>
-              <uri>model://Apriltag36_11_00000/materials/textures</uri>
-              <name>Apriltag36_11_00000</name>
-            </script>
-          </material>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <static>1</static>
-      <pose>2.95865 -0.071036 0.669248 -1.31352 -0.013596 3.13297</pose>
-    </model>
+  <model name='Apriltag36_11_00002'>
+    <link name='main'>
+      <pose>0 0 0 0 -0 0</pose>
+      <visual name='main_Visual'>
+        <geometry>
+          <box>
+            <size>0.25 0.25 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://Apriltag36_11_00002/materials/scripts</uri>
+            <uri>model://Apriltag36_11_00002/materials/textures</uri>
+            <name>Apriltag36_11_00002</name>
+          </script>
+        </material>
+      </visual>
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>
+    </link>
+    <static>1</static>
+    <pose>4.51485 -2.39499 0.469182 -0.038 0.002418 -1.554151</pose>
+  </model>
 
-    <model name='Apriltag36_11_00000_clone_0'>
-      <pose>2.95865 -0.071036 0.669248 -1.31352 -0.013596 3.13297</pose>
-      <scale>1 1 1</scale>
-      <link name='main'>
-        <pose>2.95865 -0.071036 0.669248 -1.31352 -0.013596 3.13297</pose>
-        <velocity>0 0 0 0 -0 0</velocity>
-        <acceleration>0 0 0 0 -0 0</acceleration>
-        <wrench>0 0 0 0 -0 0</wrench>
-      </link>
-    </model>
+  <model name='Apriltag36_11_00002'>
+    <pose>4.51485 -2.39499 0.469182 -0.038 0.002418 -1.554151</pose>
+    <scale>1 1 1</scale>
+    <link name='main'>
+      <pose>4.51485 -2.39499 0.469182 0 0.038185 0</pose>
+      <velocity>0 0 0 0 -0 0</velocity>
+      <acceleration>0 0 0 0 -0 0</acceleration>
+      <wrench>0 0 0 0 -0 0</wrench>
+    </link>
+  </model>
 
     <model name='grey_wall_1'>
       <link name='link'>
@@ -762,10 +762,21 @@
         <enable_wind>0</enable_wind>
         <kinematic>0</kinematic>
       </link>
-      <pose>2.03702 -2.40546 0 0 -0 0</pose>
+      <pose>2.81 -2.40546 0 0 -0 0</pose>
     </model>
 
-    <model name='chair_3'>
+    <!-- <model name='chair_3_1_clone'>
+      <pose>2.6394 -1.22597 0 0 0 -0.029466</pose>
+      <scale>1 1 1</scale>
+      <link name='link_4'>
+        <pose>2.34942 -1.47692 0 0 0 -0.029466</pose>
+        <velocity>0 0 0 0 -0 0</velocity>
+        <acceleration>0 0 0 0 -0 0</acceleration>
+        <wrench>0 0 0 0 -0 0</wrench>
+      </link>
+    </model> -->
+
+    <model name='chair_3_1_clone'>
       <link name='link_4'>
         <pose>-0.282457 -0.259387 0 0 -0 0</pose>
         <visual name='visual'>
@@ -815,8 +826,9 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose>2.947 -0.30001 0 0 -0 0</pose>
+      <pose>2.6394 -1.22597 0 0 -0.0053 -0.00219</pose>
     </model>
+
 
     <model name='chair_3_0'>
       <link name='link_4'>
@@ -921,7 +933,7 @@
       </link>
       <static>1</static>
       <allow_auto_disable>1</allow_auto_disable>
-      <pose>5.219 -2.38106 0 0 0 -1.54128</pose>
+      <pose>4.53 -2.38106 0 0 0 -1.54128</pose>
     </model>
 
     <model name='bookshelf'>
